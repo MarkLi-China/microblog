@@ -1,0 +1,4 @@
+<% if (locals.user) { %>
+    <%- partial('say') %>
+<% } %>
+<%- partial('posts', { posts: posts }) %> 
